@@ -76,7 +76,46 @@ activities = {
         "participants": ["henry@mergington.edu", "lucas@mergington.edu"]
     }
 }
-activities, and 2 more intellectual activities.
+# Adding additional activities
+activities.update({
+    "Tennis Club": {
+        "description": "Learn and practice tennis with peers",
+        "schedule": "Mondays and Wednesdays, 4:00 PM - 5:30 PM",
+        "max_participants": 10,
+        "participants": ["grace@mergington.edu", "jack@mergington.edu"]
+    },
+    "Swimming Team": {
+        "description": "Improve swimming skills and compete in swim meets",
+        "schedule": "Tuesdays and Thursdays, 3:30 PM - 5:00 PM",
+        "max_participants": 15,
+        "participants": ["lucy@mergington.edu", "ethan@mergington.edu"]
+    },
+    "Photography Club": {
+        "description": "Learn photography techniques and capture stunning images",
+        "schedule": "Fridays, 3:30 PM - 5:00 PM",
+        "max_participants": 12,
+        "participants": ["nora@mergington.edu", "leo@mergington.edu"]
+    },
+    "Music Band": {
+        "description": "Join the school band and play musical instruments",
+        "schedule": "Wednesdays, 4:00 PM - 5:30 PM",
+        "max_participants": 20,
+        "participants": ["ella@mergington.edu", "benjamin@mergington.edu"]
+    },
+    "Debate Club": {
+        "description": "Engage in debates and improve public speaking skills",
+        "schedule": "Thursdays, 3:30 PM - 5:00 PM",
+        "max_participants": 15,
+        "participants": ["zoe@mergington.edu", "samuel@mergington.edu"]
+    },
+    "Book Club": {
+        "description": "Discuss and analyze books with fellow students",
+        "schedule": "Mondays, 3:30 PM - 4:30 PM",
+        "max_participants": 10,
+        "participants": ["hannah@mergington.edu", "alex@mergington.edu"]
+    }
+})
+
 activities = {
     "Chess Club": {
         "description": "Learn strategies and compete in chess tournaments",
